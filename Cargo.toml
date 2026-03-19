@@ -1,0 +1,14 @@
+[package]
+name = "tlapyen"
+version = "0.1.0"
+edition = "2021"
+description = "The Last Program You'll Ever Need — a proc macro that calls Claude Code at compile time. Your builds now require WiFi."
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2", features = ["full"] }
+quote = "1"
+proc-macro2 = "1"
