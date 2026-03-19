@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 description = "The Last Program You'll Ever Need — a proc macro that calls Claude Code at compile time. Your builds now require WiFi."
 license = "MIT"
+repository = "https://github.com/camio/tlapyen"
+homepage = "https://github.com/camio/tlapyen"
+keywords = ["proc-macro", "claude", "ai", "code-generation"]
+categories = ["development-tools::procedural-macro-helpers"]
 
 [lib]
 proc-macro = true
